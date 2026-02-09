@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archit Nidhi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Archit Nidhi</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Archit Nidhi</h1>
+                <h2 class="hero-subtitle">Software Engineer | Full-Stack Developer | Cloud Computing Enthusiast</h2>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1.5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://linkedin.com/in/architnidhi" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-linkedin"></i> View LinkedIn
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get in Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Archit Nidhi">
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section id="summary" class="section summary-section">
+        <div class="container">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="summary-content">
+                <p>
+                    Software Engineer with strong foundation in cloud computing, cybersecurity, and scalable web applications. 
+                    Proven track record in developing modern web solutions using cutting-edge JavaScript frameworks and cloud technologies.
+                </p>
+                <p>
+                    Actively seeking roles in <strong>Product Management</strong>, <strong>Cloud Computing</strong>, and 
+                    <strong>Technical Support</strong> where technical expertise and problem-solving skills can drive impactful solutions. 
+                    Passionate about building systems that scale and deliver exceptional user experiences.
+                </p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="edu-card">
+                        <div class="edu-info">
+                            <h4>Computer Science & Engineering</h4>
+                            <p class="edu-institution">University / College</p>
+                        </div>
+                        <div class="edu-gpa">
+                            <span class="gpa-label">CGPA</span>
+                            <span class="gpa-value">7.0/10.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <p class="company">Hexadecimai Software</p>
+                        <ul>
+                            <li>Developing and maintaining web applications with modern JavaScript frameworks</li>
+                            <li>Collaborating with cross-functional teams to deliver scalable software solutions</li>
+                            <li>Supporting application deployment, debugging, and performance optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer Intern</h3>
+                        <p class="company">Cuvelle Tech Pvt. Ltd.</p>
+                        <ul>
+                            <li>Built responsive front-end components and REST APIs</li>
+                            <li>Worked with databases and version control in an agile environment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <p class="company">Sync</p>
+                        <ul>
+                            <li>Assisted in web development projects</li>
+                            <li>Gained hands-on experience with web technologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Strengthening Cybersecurity with Machine-Powered NIDS</h3>
+                    <p>Designed a Network Intrusion Detection System using machine learning to identify and prevent security threats in real-time.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Algorithms</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>CoinPilot</h3>
+                    <p>Web application focused on crypto-related features with optimized UI performance and seamless user experience.</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>Interactive game with optimized UI and logic handling, demonstrating strong front-end development skills.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">React</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Tourism Management System</h3>
+                    <p>Web-based system for managing travel bookings and services with comprehensive database integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">XAMPP</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Replit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section certifications-section">
+        <div class="container">
+            <h2 class="section-title">Professional Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <h3>AWS Cloud Foundation Certificate</h3>
+                    <p>Comprehensive cloud computing fundamentals and AWS services expertise</p>
+                </div>
+                <div class="cert-card">
+                    <h3>Infosys Springboard Artificial Intelligence Certificate</h3>
+                    <p>Advanced AI and machine learning concepts and applications</p>
+                </div>
+                <div class="cert-card">
+                    <h3>Intercollegiate Project Exhibition Certificate</h3>
+                    <p>Recognition for innovative project presentation and technical excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Collaborate</h3>
+                    <p>
+                        I'm actively seeking opportunities in Product Management, Cloud Computing, and Technical Support. 
+                        With a strong technical foundation and passion for building impactful solutions, I'm excited to contribute to innovative projects and teams.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Delhi, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>architnidhidbg@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-7479654024</span>
+                        </div>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="mailto:architnidhidbg@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Email
+                        </a>
+                        <a href="https://linkedin.com/in/architnidhi" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/architnidhi" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> GitHub Portfolio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Archit Nidhi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
